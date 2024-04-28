@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            BALDELLI Andrea
+        </title>
+        <link href="other/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body background="img/bg-cropped.jpg">
+        <div class=header>
+            <h1 align="center"><a href="" id="title">Title = "Videogames Portfolio";</a></h1>
+        </div>
+        
+        <div class=footer>
+            <table style="width: 100%;">
+                <tr style="width: 100%;">
+                    <td style="width: 20%"><h2 style="text-align: center;">Baldelli Andrea</h2></td>
+                    <td style="width: 10%"><img src="img/logos/Unity-w.svg" style="width: 30px; margin-right: 10px;"><img src="img/logos/Unreal-w.svg" style="width: 30px;"></td>
+                    <td style="width: 50%"></td>
+                    <td style="width: 10%"><h3 style="text-align: center;">About</h3></td>
+                    <td style="width: 10%"><h3 style="text-align: center;">Links</h3></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container">
+            <h1 style="width: 100%; height: auto; float: left; text-align: center; color: white; margin-top: 10px;"><img src="img/logos/Unity-w.svg" style="margin-right: 10px; height: 50px;">Unity Games</h1>
+            <div style="width:100%; height:auto; float: left;">
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Tricky Towers Clone</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Rubik Wave</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Solar System</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Cyberhook Clone</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Bumper Cars</h3></div></a>
+            </div>
+            <div style="width:100%; height:auto; float: left;">
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>AudioSurf Clone</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Dong!</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Plumberrat</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Parkour Chasers</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Escape Room</h3></div></a>
+            </div>
+            <h1 style="width: 100%; height: auto; float: left; text-align: center; color: white; margin-top: 50px;"><img src="img/logos/Unity-w.svg" style="margin-right: 10px; height: 50px;">Unity Side Projects/Tech Demos</h1>
+            <div style="width:100%; height:auto; float: left;">
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Tricky Towers Clone</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Rubik Wave</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Solar System</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Cyberhook Clone</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Bumper Cars</h3></div></a>
+            </div>
+            <div style="width:100%; height:auto; float: left;">
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>AudioSurf Clone</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Dong!</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Plumberrat</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Parkour Chasers</h3></div></a>
+            <a href="pages/a.html"><div id="selectable-box"><img src="img/unity.jpg" id="selectable-box"><h3>Escape Room</h3></div></a>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script type="text/javascript">
+var i = 0;
+var txt = 'Title = "Videogames Portfolio";';
+var speed = 40;
+var writtenText = '';
+
+function typeWriter() {
+	if (i < txt.length - 1) {
+		writtenText += txt.charAt(i);
+		document.getElementById("title").innerHTML = writtenText + "|";
+		i++;
+		setTimeout(typeWriter, speed);
+	}
+	else if (i < txt.length) {
+		document.getElementById("title").innerHTML = writtenText + txt.charAt(i);
+	}
+}
+
+onload = (event) => {
+	document.getElementById("title").innerHTML = writtenText + "|";
+	setTimeout(typeWriter, 350);
+};
+</script>
