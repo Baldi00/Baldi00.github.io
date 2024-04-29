@@ -32,12 +32,10 @@ body {
 .footer {
     font-size: 15px;
     width: 100%;
-    height: auto;
+    height: 75px;
     background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
     float: left;
     color:white;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 #title{
