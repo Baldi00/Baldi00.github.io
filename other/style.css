@@ -96,21 +96,23 @@ img#rounded-corners{
 
 #back-to-index{
     transition-duration: 0.4s;
-    width: 30%;
+    width: 15%;
     height: 50px;
     background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
     color:  rgba(255,255,255,.7);
     text-align: center;
     border-radius: 25px;
     margin-top: 10px;
+    margin-left: 42.5%;
     line-height:50px;
 }
 
 #back-to-index:hover{
     transition-duration: 0.4s;
-    width: 50%;
+    width: 17%;
     background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
     color: white;
+    margin-left: 41.5%;
 }
 
 h1{
