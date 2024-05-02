@@ -136,6 +136,18 @@ img#rounded-corners{
     margin-left: 22.5%;
 }
 
+#back-to-index-disabled{
+    width: 98%;
+    height: 50px;
+    background: linear-gradient(to right,rgba(46,122,184,0.3),rgba(78,201,176,0.3));
+    color:  rgba(255,255,255,.3);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 2%;
+    line-height:50px;
+}
+
 h1{
     margin: 0;
     padding: 0;
