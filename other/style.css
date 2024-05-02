@@ -136,6 +136,27 @@ img#rounded-corners{
     margin-left: 22.5%;
 }
 
+#back-to-index3{
+    transition-duration: 0.4s;
+    width: 87.5%;
+    height: 50px;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    color:  rgba(255,255,255,.7);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 6.25%;
+    line-height:50px;
+}
+
+#back-to-index3:hover{
+    transition-duration: 0.4s;
+    width: 90%;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    color: white;
+    margin-left: 5%;
+}
+
 #back-to-index-disabled{
     width: 98%;
     height: 50px;
