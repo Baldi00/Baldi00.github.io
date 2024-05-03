@@ -169,6 +169,16 @@ img#rounded-corners{
     line-height:50px;
 }
 
+
+#timeline{
+    width: 98%;
+    height: 20px;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    border-radius: 10px;
+    margin-left: 1%;
+    float: left;
+}
+
 h1{
     margin: 0;
     padding: 0;
