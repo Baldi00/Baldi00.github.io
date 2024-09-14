@@ -32,12 +32,10 @@ body {
 .footer {
     font-size: 15px;
     width: 100%;
-    height: auto;
+    height: 75px;
     background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
     float: left;
     color:white;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 #title{
@@ -98,21 +96,87 @@ img#rounded-corners{
 
 #back-to-index{
     transition-duration: 0.4s;
-    width: 30%;
+    width: 15%;
     height: 50px;
     background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
     color:  rgba(255,255,255,.7);
     text-align: center;
     border-radius: 25px;
     margin-top: 10px;
+    margin-left: 42.5%;
     line-height:50px;
 }
 
 #back-to-index:hover{
     transition-duration: 0.4s;
-    width: 50%;
+    width: 17%;
     background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
     color: white;
+    margin-left: 41.5%;
+}
+
+#back-to-index2{
+    transition-duration: 0.4s;
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    color:  rgba(255,255,255,.7);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 25%;
+    line-height:50px;
+}
+
+#back-to-index2:hover{
+    transition-duration: 0.4s;
+    width: 55%;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    color: white;
+    margin-left: 22.5%;
+}
+
+#back-to-index3{
+    transition-duration: 0.4s;
+    width: 87.5%;
+    height: 50px;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    color:  rgba(255,255,255,.7);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 6.25%;
+    line-height:50px;
+}
+
+#back-to-index3:hover{
+    transition-duration: 0.4s;
+    width: 90%;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    color: white;
+    margin-left: 5%;
+}
+
+#back-to-index-disabled{
+    width: 98%;
+    height: 50px;
+    background: linear-gradient(to right,rgba(46,122,184,0.3),rgba(78,201,176,0.3));
+    color:  rgba(255,255,255,.3);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 2%;
+    line-height:50px;
+}
+
+
+#timeline{
+    width: 98%;
+    height: 20px;
+    background: linear-gradient(to right,rgb(46,122,184),rgb(78,201,176));
+    border-radius: 10px;
+    margin-left: 1%;
+    float: left;
 }
 
 h1{
