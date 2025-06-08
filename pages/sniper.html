@@ -24,26 +24,26 @@
                 <tr style="width: 100%">
                     <td style="width: 50%">
                         <video style="width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 20px; border-radius: 25px;" controls muted>
-                          <source src="../video/agc.mp4" type="video/mp4">
+                          <source src="../video/sniper.mp4" type="video/mp4">
                         </video>
                     </td>
                     <td style="width: 50%; vertical-align: text-top; padding-top: 20px; color: white">
                         <a href="https://github.com/Baldi00/SniperSimulator"><div id="back-to-index2">Source and Download</div></a>
                         <h1 style="margin-top: 20px; margin-bottom: 15px">What is it?</h1>
-                        Sniper simulation game with accurate ballistic. Watch target distance and wind, adjust your scope and shoot to target
+                        Sniper simulation game with accurate ballistic. Watch target distance and wind, adjust your scope and shoot to target.<br>
+                        As a big fan of Sniper Elite and Sniper Ghost Warrior series I wanted to create my own sniping game. I also wanted to practice Unreal with particular focus on optimization
                         <h1 style="margin-top: 20px; margin-bottom: 15px">When was it made?</h1>
                         May 2025, developed ~1 month in my free time
                         <h1 style="margin-top: 20px; margin-bottom: 15px">Who made it?</h1>
                         Me on my own
                         <h1 style="margin-top: 20px; margin-bottom: 15px">What did I learn/practice?</h1>
                         <ul>
-                            <li>Multiplayer in Unreal Engine entirely in C++ (Gameplay framework, Replication, RPC, Relevancy, Session, ...)</li>
-                            <li>Creation and management of Modules and Plugins for clean and decoupled architecture</li>
-                            <li>Clean UI programming in C++</li>
-                            <li>Integration with FMOD for SoundFX</li>
-                            <li>Complete C++ project (except some VFX in Blueprint) with vanilla Visual Studio 2022 (I used Rider for the previous project, with VS I learned many more things that Rider hide and oversimplified)</li>
-                            <li>Debugging</li>
-                            <li>Tools programming for simplifying logging and module creation</li>
+                            <li>Concepts of external ballistic (I also wanted to learn and understand some physics behind sniping, see <a href="https://github.com/Baldi00/SniperSimulator/blob/main/References.md">References</a>)
+                            <li>Use of Profiler (Unreal Insights)
+                            <li>Optimization for fast GPU rendering and optimized game logic (lights/meshes/materials/textures/animations optimizations, tests with different render pipeline and rendering settings, custom AI pathfollowing, ...)
+                            <li>Building UE game on Android
+                            <li>Custom UI from code, custom post processing effects (gaussian blur, circular image hole, tactical vision)
+                            <li>Testing of Animation Sharing and World Partitioning
                         </ul>
                     </td>
                 </tr>
